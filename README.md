@@ -7,7 +7,7 @@ This is a demo application which is built with java and springboot. The objectiv
 ## Specifications
 The API is able to utilise an in memory database which is composed by an arrayList and a real database. The database of choice was PostgreSQL which is setup and run locally. A container, docker, which holds the database image is used. During creation of the API one can test the endpoints with Postman. This application mainly focuses on the backend and has no user interface to interact with.
 
-##Endpoints:
+## Endpoints:
 <ul>
 <li>GET /api/v1/person : Gets all the database entries </li>
 <li>GET /api/v1/person/{id} : Gets a specific person by id parsed</li>
